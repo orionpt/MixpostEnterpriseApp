@@ -3,20 +3,9 @@
     "type": "project",
     "description": "Standalone application with Mixpost Enterprise's Laravel package pre-installed and configured.",
     "keywords": ["inovector", "mixpost", "mixpost-enterpsie", "mixpost-saas"],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/orionpt/mixpost-pro-team"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/orionpt/mixpost-enterprise"
-        }
-    ],
     "require": {
         "php": "^8.2",
         "guzzlehttp/guzzle": "^7.8",
-        "inovector/mixpost-enterprise": "dev-main",
         "laravel/framework": "^11.31",
         "laravel/horizon": "^5.15",
         "laravel/reverb": "^1.0",
